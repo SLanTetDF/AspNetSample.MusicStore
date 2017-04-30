@@ -7,7 +7,7 @@ using System.Web.Mvc;
 
 namespace AspNetSampleMusicStore.Controllers
 {
-    [Authorize(Roles ="Administrator")]
+    //[Authorize(Roles ="Administrator")]
     public class StoreManagerController : Controller
     {
         private MusicStoreContext myMusicStore;
@@ -20,7 +20,7 @@ namespace AspNetSampleMusicStore.Controllers
         // GET: /StoreManager/
         public ActionResult Index()
         {
-            var albums = myMusicStore.Albums.Include(a => a.Artists).Include(a => a.Genre);
+            var albums = myMusicStore.Albums.Include(a => a.Artist).Include(a => a.Genre);
             return View(albums.ToList());
         }
 

@@ -9,6 +9,6 @@
     public virtual decimal Price { get; set; }
     public virtual string AlbumArtUrl { get; set; }
     public virtual Genre Genre { get; set; }
-    public virtual Artist Artists { get; set; }
+    public virtual Artist Artist { get; set; }
 }
 }
