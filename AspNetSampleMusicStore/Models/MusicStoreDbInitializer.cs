@@ -9,7 +9,7 @@
             context.Genres.Add(new Genre { Name = "Pop" });
             context.Albums.Add(new Album
             {
-                Artists = new Artist { Name = "USA" },
+                Artist = new Artist { Name = "USA" },
                 Genre = new Genre { Name = "POP" },
                 Price = 0.01m,
                 Title = "See you!"
