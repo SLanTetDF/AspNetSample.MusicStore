@@ -1,0 +1,2 @@
+1. add a new page based on controller\view.
+The page display a string "Hello World"
