@@ -22,5 +22,12 @@ namespace AspNetSampleMusicStore.Controllers
 
             return View();
         }
+
+        //public ActionResult MusicStore()
+        //{
+        //    Response.Redirect("StoreManager");
+
+        //    return View();
+        //}
     }
 }
