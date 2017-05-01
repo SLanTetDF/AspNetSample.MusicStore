@@ -1,6 +1,7 @@
 May.1
-Develop a Meeting minutes system.
+1.Add the HelloWorld page to the navigation menu on top.
+2.Also make sure the HelloWorld page have the navigation menu.
 
 Apr.30 add a new page based on controller\view.
-The page display a string "Hello World"
+1.The page display a string "Hello World"
 
