@@ -1,2 +1,6 @@
-1. add a new page based on controller\view.
+May.1
+Develop a Meeting minutes system.
+
+Apr.30 add a new page based on controller\view.
 The page display a string "Hello World"
+
