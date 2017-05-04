@@ -1,14 +1,19 @@
-May.2
-Meeting minutes system Before end of May.7
-The system is a Asp.net web application and should provide below features: 1.enable user to add meeting minutes item
+Meeting minutes system
+The system is a Asp.net web application and should provide below features: 
+Complete below 4 features Before end of May.7
+1.enable user to add meeting minutes item
 2.the item content is: Issue Date, Content, Responsible Member, Deadline, Status
 3.the item status is: new, ongoing, done, block
-4.the item background color should be based on the status: new(none), ongoing(orange), done(green), block(red)
-5.view all the meeting minutes items as a list
-6.view all the meeting minutes items by the filter (e.g. by Issue Date, Status, responsible member)
+4.display all the meeting minutes items as a list
 
-7.Unit test is required for any features.
+Complete below 3 features before end of May.12
+1.the item background color should be based on the status: new(none), ongoing(orange), done(green), block(red)
+2.view all the meeting minutes items by the filter (e.g. by Issue Date, Status, responsible member)
+3.Unit test is required for any features.
 
+Complete below 2 features before end of May.21
+1.enable user to edit the meeting minutes
+2.add validator for the input (e.g. the Issue Date should be time format, Content string should not be longer than 200 characters...)
 
 Apr.30 
 add a new page based on controller\view.
